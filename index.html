@@ -21,14 +21,14 @@
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
         <div class="title">InputFieldTest</div>
 		<Input type="text" id="normalInput" name="normalInput" placeholder="Normal Input">
-		<Input href="javascript:void(0)" type="text" id="fname" name="fname" placeholder="stop page jump" onClick="test()">
+		<Input type="text" id="fname" name="fname" placeholder="stop page jump" onClick="return false;">
 		<script>
 		function test() {
-		  
+		  preventDefaut();
 		}
 		</script>
       </div>
     </div>
   </body>
 </html>
-href="javascript:void(0)" onclick="blahblah"
+Return false
